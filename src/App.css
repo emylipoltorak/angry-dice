@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body{
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color: #3b3b3b;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 7px 15px;
+  border: 4px solid #3b3b3b;
+  max-width: 50%;
+  margin: 20px auto;
+}
+
+.scoreBox {
+  padding: 5px 15px;
+  border: 2px solid #3b3b3b;
+  max-width: 20%;
+  margin: 20px auto;
+}
+
+.diceBox {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+
+}
+
+button {
+  font-size: 2em;
+  color: #3b3b3b;
+  border: solid 2px #3b3b3b;
+  padding: 5px auto;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.holdButton {
+  font-size: 1em;
+  justify-self: center;
+  margin-top: auto;
+}
+
+button:hover {
+  background-color: #b9b7b2;
 }
